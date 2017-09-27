@@ -1,0 +1,45 @@
+#+TITLE:The L4Re Microkernel
+
+* Fiasco
+** Overview
+   Fiasco.OC is a 3rd-generation µ-kernel (microkernel).
+   Fiasco.OC + L4 Runtime Environment
+** Download
+*** Method1: svn
+    svn cat https://svn.l4re.org/repos/oc/l4re/trunk/repomgr | perl - init https://svn.l4re.org/repos/oc/l4re fiasco l4re
+*** Method2: direct link
+    wget https://l4re.org/download/snapshots/fiasco-2016082114.tar.xz
+    wget https://l4re.org/download/snapshots/l4re-core-2016082114.tar.xz
+    wget https://l4re.org/download/snapshots/l4re-snapshot-2016082114.tar.xz
+** Build Fiasco µ-Kernel & L4re
+   test build sucess with ubuntu14.04
+*** Fiasco.OC
+    - Get Fiasco.OC and core L4Re.
+    - Create build directory
+      - somedir$ cd src/kernel/fiasco
+      - somedir/src/kernel/fiasco$ make BUILDDIR=mybuild
+    - Got the build directory
+      - somedir/src/kernel/fiasco$ cd mybuild
+    - Configure kernel build
+      - somedir/src/kernel/fiasco/mybuild$ make config
+    - Build it
+      - somedir/src/kernel/fiasco/mybuild$ make
+*** L4re
+    - Check the build requirements:
+      - somewhere# apt-get install make gawk g++ binutils pkg-config g++-multilib subversion
+    - Change to the src/l4 directory:
+      - somedir$ cd src/l4
+    - Create a new build directory for your build:
+      - somedir/src/l4$ make B=path/to/builddir
+    - configure the build tree,The default architecture is ia32:
+      - somedir/src/l4$ make O=path/to/builddir config
+    - Build. Add -jX as you like:
+      - somedir/src/l4$ make O=path/to/builddir
+*** Running
+    - make iso
+      - l4re-build$ make grub2iso E=hello MODULE_SEARCH_PATH=/path/to/fiasco-build-dir
+    - direct run with qemu
+      - l4re-build$ make qemu E=hello MODULE_SEARCH_PATH=/path/to/fiasco-build-dir
+** Fiasco-UX.
+** links
+   [[http://os.inf.tu-dresden.de/fiasco/overview.html][fiasco/overview]]
