@@ -1,0 +1,15 @@
+#+TITLE: 收集技术文档
+
+* 编码相关
+  https://google.github.io/styleguide/cppguide.html
+  [[https://www.codeproject.com/Articles/33340/Code-Injection-into-Running-Linux-Application][Code-Injection-into-Running-Linux-Application]]
+  [[https://www.codeproject.com/Articles/389667/Simple-Plug-in-Architecture-in-Plain-C][Simple-Plug-in-Architecture-in-Plain-C]]
+
+* linux
+  http://blog.csdn.net/MyArrow/article/category/1173907
+  [Linux Kernel Newbies](http://kernelnewbies.org/)
+  [linux-mips|https://git.linux-mips.org]
+  [龙芯开源社区|http://www.loongnix.org/]
+
+* opengl
+  https://www.khronos.org/opengles/

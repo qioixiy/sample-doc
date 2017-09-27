@@ -1,0 +1,13 @@
+#+TITLE: linux kernel
+
+* source code intro
+- Linux Magic System Request Key Hacks
+  drivers/tty/sysrq.c
+- keyboard vt
+  drivers/tty/vt/keyboard.c
+
+* documentation
+  [[https://www.kernel.org/doc/Documentation][kernel doc]]
+  [[http://blog.csdn.net/skyflying2012/article/details/48496235][kernel boot]]
+  [[http://blog.csdn.net/bullbat/article/details/7247747][VFS mount]]
+  [[http://www.makelinux.net/][makelinux]]

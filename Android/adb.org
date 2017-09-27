@@ -1,0 +1,17 @@
+#+TITLE: android adb工具使用方法
+
+* adb通过wifi链接
+  - android side
+  #+BEGIN_SRC sh
+    $setprop service.adb.tcp.port 5555
+    $stop adbd
+    $start adbd
+    $getprop | grep 'service.adb.tcp'
+  #+END_SRC
+  - pc side
+  #+BEGIN_SRC sh
+    # 连接
+    adb connect ip:port
+    # pc disconnect
+    adb disconnect ip:port
+  #+END_SRC

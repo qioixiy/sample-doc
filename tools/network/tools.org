@@ -1,0 +1,5 @@
+#+TITLE: 网络相关的工具收集
+
+* ifconfig 可验证ip地址
+* netstat -r可验证网关是否生效
+* nslookup及dig可验证DNS配置是否正确

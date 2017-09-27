@@ -1,0 +1,5 @@
+#+TITLE: suse OS
+
+* mirror
+  sudo zypper ar -fc https://mirrors.ustc.edu.cn/opensuse/tumbleweed/repo/oss tumbleweed:oss
+  sudo zypper ar -fc https://mirrors.ustc.edu.cn/opensuse/tumbleweed/repo/non-oss tumbleweed:non-oss

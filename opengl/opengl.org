@@ -1,0 +1,25 @@
+* 基础
+- [[http://blog.csdn.net/jxw167/article/details/53992084][opengl矩阵变换基础,游戏核心之固定流水线 ]]
+
+* 资源链接
+- [[http://www.glprogramming.com/red][opengl red]]
+- [[http://www.glprogramming.com/blue][opengl blue]]
+- [[https://www.opengl.org/resources/libraries/glut][glut]]
+- [[http://ogldev.atspace.co.uk][modern opengl tutorials]]
+- [[http://www.cnblogs.com/kiffa][kiffa]]
+- [[http://www.klayge.org][KlayGE游戏引擎]]
+- [[http://blog.csdn.net/candycat1992/article/details/44039077][opengl blog]]
+- [[https://www.shadertoy.com][glsl shaderToy]]
+- [[http://glslsandbox.com][glslsandbox]]
+- [[http://www.opengpu.org][opengpu]]
+
+* OpenGLES
+- [[http://www.learnopengles.com/][url]]
+- [[http://www.songho.ca/opengl][gl study]]
+
+* WebGL
+- [[http://learningwebgl.com/blog/?page_id=1217][learningwebgl]]
+- [[http://www.glge.org/][glge]]
+
+* blog
+- [[http://blog.csdn.net/jxw167/][姜雪伟个人博客,OpenGL 3D游戏引擎相关, Cocos2d-x, Unity3D]]

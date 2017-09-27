@@ -1,0 +1,43 @@
+#+TITLE: orgmode feature
+
+* orgmode
+  http://orgmode.org/features.html
+** TODO创建
+*** 创建一个TODO项目 S-M-RET TODO
+*** 设定SCHEDULED日期 C-c C-s
+*** 设定DEADLINE日期 C-c C-d
+*** 改变Item状态 C-c C-t
+*** 显示全局的TODO，包括所有agenda文件列表 C-c a t
+*** 增大或减小当前项目的层级 S-M-Right/S-M-Left
+*** 树状显示所有的TODO项 C-c / t
+** 任务计时
+*** 开始计时 C-c C-x C-i
+*** 结束计时时 C-c C-x C-o
+** 插入
+*** 插入图片或者其他的资源 C-c C-l
+** 归档
+   在任何一个树的子树中，只有一个archive子树，只占文档的一行，当你居然
+   查看以前存档的事件时，只能在这个节点上使用”C-TAB”命令即可打开。
+*** 内部归档
+**** C-c C-x a
+     将某一个节点打上ARCHIVE标签
+**** C-c C-x A
+     将当前节点归入一个名为Archive的子树中，并且这个子树是位于当前级别
+     子树的最下方
+*** 外部归档
+**** C-c C-x C-s 是把当前的节点移到archived文件中去
+     外部归档是指把子树移动到另一个org文件中去
+
+** agenda viewa
+   C-c a a来打开agenda viewk* elisp
+  #+BEGIN_SRC emacs-lisp
+  (setq org-agenda-files (list "~/org/linux.org"
+    "~/org/work.org"
+    "~/org/home.org"))
+  #+END_SRC
+
+** Tags
+   标签(tags)管理 C-c C-c, C-c a m 挑选tags, 只看TODO的tags C-c a M
+
+** misc
+   org-toggle-link-display
