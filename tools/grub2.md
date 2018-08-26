@@ -123,3 +123,13 @@ sudo grub-install --boot-directory=/mnt /dev/sda
   sudo lilo-M /dev/sda mbr
   sudo update-grub
   sudo grub-install /dev/sda
+
+
+[修复CentOS7的MBR和GRUB ][2]
+[GRUB2配置文件"grub.cfg"详解][1]
+[U盘引导多个linux镜像安装,同时支持BIOS和UEFI模式][3]
+---
+
+[1]: http://www.jinbuguo.com/linux/grub.cfg.html
+[2]: http://huidu.lanxijun.com/articleDetail.html?id=46675&from=huidu&platform=android
+[3]: http://ju.outofmemory.cn/entry/204454
