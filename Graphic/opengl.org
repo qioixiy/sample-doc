@@ -11,15 +11,18 @@
   [[http://www.cnblogs.com/hust-ruan/archive/2013/03/16/2962077.html][How to write a simple software rasterizer]]
   [[http://blog.csdn.net/peng6662001/article/details/7082436][透视函数glFrustum(), gluPerspective()函数用法和glOrtho()函数用法. ]]
   [[http://blog.csdn.net/wong_judy/article/details/6283019][透视投影的原理和实现]]
-  [[http://blog.csdn.net/popy007/article/category/640562][3D图形学算法]]矩阵变换
+  [[http://blog.csdn.net/popy007/article/category/640562][3D图形学算法矩阵变换]]
   [[http://www.chrishecker.com/Miscellaneous_Technical_Articles][Miscellaneous Technical Articles]]
   [[http://opengameart.org/][opengameart]]
   [[http://opengameart.org/content/bitmap-font-0][bitmap-font-0]]
+  [[https://blog.csdn.net/yulinxx/article/details/77959484][OpenGL视角LooAt及Perspective理解 ^4]]
+  [[http://www.opengl-tutorial.org/beginners-tutorials/tutorial-3-matrices/][opengl-tutorial-3-matrices ^4]]
+  [[https://blog.csdn.net/popy007/article/category/640562][透视投影变换 ^3]]
 ** math
    [[http://www.lighthouse3d.com/tutorials/maths/][A set of maths tools for CG]]
 ** glsl
    [[http://blog.csdn.net/wangshaohao/article/details/7847310][GLSL的简介]]
-   
+
 ** obj loader
    [[http://www.opengl-tutorial.org/beginners-tutorials/tutorial-7-model-loading/][model-loading]]
    [[http://www.cplusplus.com/forum/general/105894/][cplusplus obj loader]]
@@ -30,7 +33,7 @@
 
 * blog
   [[http://blog.csdn.net/wangshaohao/article/details/7853554][十大OpenGL教程]]
-  [[http://blog.csdn.net/candycat1992][candycat]]1992
+  [[http://blog.csdn.net/candycat1992][candycat]]
   [[http://blog.csdn.net/candycat1992/article/details/46560879][Unity Shader]]
   [[http://blog.csdn.net/silangquan/article/details/9707347][OpenGL进阶(十) - obj文件的导入]]
   [[http://www.iquilezles.org/www/articles/raymarchingdf/raymarchingdf.htm][raymarching distance fields]]
@@ -40,7 +43,19 @@
   [[http://www.lighthouse3d.com/tutorials/glsl-tutorial/lighting/][www.lighthouse3d.com/tutorials/glsl-tutorial/lighting/]]
   [[http://www.lighthouse3d.com/tutorials/glsl-tutorial/glsl-core-tutorial-index/][GLSL Core Tutorial – Index ]]
   [[http://www.lighthouse3d.com/opengl/][lighthouse3d]]
-
+  [[https://blog.csdn.net/popy007/article/category/640562][3-D图形学算法在游戏程序中的应用]]
+  [[https://blog.csdn.net/hb707934728/article/details/72830324][opengles实现点光源]]
+  [[https://blog.csdn.net/with_dream/article/details/54301058][android opengles光照效果-镜面光]]
+  [[https://www.zybuluo.com/cxm-2016/note/572030][EGL函数API文档]]
+  [[https://www.jianshu.com/p/1697f154ffa5][Opengles 绘制方式（点，线，三角形）]]
+  [[http://casual-effects.com/data/index.html][McGuire Computer Graphics Archive]]
+  [[https://github.com/MirageYM/3DModels][MirageYM/3DModels]]
+  [[https://github.com/Overv/Open.GL][The source code and content of Open.GL]]
+  [[https://github.com/Overv][Overv]]
+  [[https://github.com/syoyo/tinyobjloader][tinyobjloader]]
+  [[http://ogldev.atspace.co.uk/index.html][Modern OpenGL Tutorials ^5]]
+  [[https://blog.csdn.net/lafengxiaoyu/article/details/63684952][Matlab obj show]]
+  [[https://www.jianshu.com/p/df4c8f9bc08d][学习OpenGL ES文章目录 ^4]]
 * res
   [[http://fabiensanglard.net/quake3/][quake3]]
   [[ftp://ftp.idsoftware.com/][ftp idsoftware]]
@@ -49,5 +64,18 @@
   [[http://fabiensanglard.net/][opengl demo]]
   [[http://graphics.cs.williams.edu/data/meshes.xml][data meshes]]
   [[http://www.morrowland.com/apron/tut_gl.php][morrowland gl demo]]
+  [[http://paulbourke.net/dataformats/ply/][PLY - Polygon File Format]]
+  [[http://paulbourke.net/dataformats/yuv/][Video camera formats: yuv411, yuv422]]
+  [[http://paulbourke.net/dome/2fish/][Fisheye projections from spherical maps]]
+  [[https://free3d.com/3d-model/audi-r8-14024.html][Audi R8 blender ^5]]
+  [[http://www.aigei.com/home/mark][免费素材 ^3]]
+  [[http://www.3dxy.com/3dmodel/wd-7.html][3d素材 ^2]]
+  [[https://www.blender-models.com/][blender-models]]
+  [[http://www.cgmodel.com/works/search-model.html][cgmodel]]
+  [[http://people.sc.fsu.edu/~jburkardt/data/obj/obj.html][OBJ Files, A 3D Object Format ^5]]
+  [[http://people.sc.fsu.edu/~jburkardt/data/obj/alfa147.obj][a mini-Cooper obj model ^5]]
 * tool
 ** [[https://www.raywenderlich.com/49955/blender-tutorial-for-beginners-how-to-make-a-mushroom][blender-tutorial-for-beginners-how-to-make-a-mushroom]]
+guvcview
+mwcap-config
+[[https://blog.csdn.net/github_35160620/article/details/51726167][使用Meshlab软件将点云（Point Cloud）转换为模型（Mesh）]]
