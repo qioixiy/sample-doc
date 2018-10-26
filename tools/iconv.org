@@ -1,0 +1,3 @@
+* font translate tool
+iconv -l
+iconv -f gbk -t utf-8 tools.txt
