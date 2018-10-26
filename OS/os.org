@@ -10,9 +10,9 @@
    http://genode.org/index
    https://github.com/genodelabs/genode
 ** Minix
-*** °²×°ÃüÁîsetup
+*** å®‰è£…å‘½ä»¤setup
 ** L4
-   L4ÊÇ×îÏÈÓÉJochen Liedtke¿ª·¢µÄµÚ¶ş´úÎ¢ÄÚºË¡£Ä¿Ç°£¬ËüÒÑ¾­±ä³ÉÁËµÚ¶ş´úÎ¢ÄÚºË µÄÒ»¸ö±ê×¼£¬»ùÓÚÕâ¸ö±ê×¼£¬ÓĞºÜ¶àL4 APIµÄÊµÏÖ¡£ÆäÖĞÒ»¸öÊµÏÖ¾ÍÊÇFiasco£¬ËüÊÇÔÚ µÂ¹úµÂÀÛË¹¶Ù´óÑ§¿ª·¢µÄ¡£ÎªÁËÇ¿µ÷Fiasco¸úL4Ö®¼äµÄÕâÖÖ¹ØÏµ£¬ÎÒÃÇ°ÑFiascoÒ»°ã ³ÆL4/Fiasco¡£L4/FiascoÓëÆäËüL4µÄÊµÏÖ²»Í¬µÄÊÇL4/FiascoÊÇÒ»¸ö¾ßÓĞÊµÊ±ÌØĞÔµÄÎ¢ÄÚ ºË£¬L4/FiascoÊÇDROPSÏîÄ¿µÄÒ»¸öºËĞÄ×ÓÏîÄ¿£¬ËüÍ¬Ê±Ìá¹©ÁËºÜ¶àÈí¼ş°ü£¬ÒÔ·½±ã »ùÓÚL4/FiascoµÄ³ÌĞòÉè¼Æ
+   L4æ˜¯æœ€å…ˆç”±Jochen Liedtkeå¼€å‘çš„ç¬¬äºŒä»£å¾®å†…æ ¸ã€‚ç›®å‰ï¼Œå®ƒå·²ç»å˜æˆäº†ç¬¬äºŒä»£å¾®å†…æ ¸ çš„ä¸€ä¸ªæ ‡å‡†ï¼ŒåŸºäºè¿™ä¸ªæ ‡å‡†ï¼Œæœ‰å¾ˆå¤šL4 APIçš„å®ç°ã€‚å…¶ä¸­ä¸€ä¸ªå®ç°å°±æ˜¯Fiascoï¼Œå®ƒæ˜¯åœ¨ å¾·å›½å¾·ç´¯æ–¯é¡¿å¤§å­¦å¼€å‘çš„ã€‚ä¸ºäº†å¼ºè°ƒFiascoè·ŸL4ä¹‹é—´çš„è¿™ç§å…³ç³»ï¼Œæˆ‘ä»¬æŠŠFiascoä¸€èˆ¬ ç§°L4/Fiascoã€‚L4/Fiascoä¸å…¶å®ƒL4çš„å®ç°ä¸åŒçš„æ˜¯L4/Fiascoæ˜¯ä¸€ä¸ªå…·æœ‰å®æ—¶ç‰¹æ€§çš„å¾®å†… æ ¸ï¼ŒL4/Fiascoæ˜¯DROPSé¡¹ç›®çš„ä¸€ä¸ªæ ¸å¿ƒå­é¡¹ç›®ï¼Œå®ƒåŒæ—¶æä¾›äº†å¾ˆå¤šè½¯ä»¶åŒ…ï¼Œä»¥æ–¹ä¾¿ åŸºäºL4/Fiascoçš„ç¨‹åºè®¾è®¡
    https://wiki.tudos.org/Main_Page
    http://www.l4hq.org/docs/performance.php
    http://ssrg.nicta.com.au/research/old/L4/
@@ -56,6 +56,6 @@
    [[https://github.com/aclements/mtrace][Memory access tracing QEMU]]
 ** links
    [[http://wiki.csie.ncku.edu.tw/embedded/f9-kernel][f9-kernel]]
-   [[http://eee.guc.edu.eg/Courses/Electronics/ELCT912%20Advanced%20Embedded%20Systems/Lectures/ARM%20System%20Developer's%20Guide.pdf][ARM System Developer¡¯s Guide : Designing and Optimizing System Software]]
+   [[http://eee.guc.edu.eg/Courses/Electronics/ELCT912%20Advanced%20Embedded%20Systems/Lectures/ARM%20System%20Developer's%20Guide.pdf][ARM System Developerâ€™s Guide : Designing and Optimizing System Software]]
    [[https://github.com/argos-research-archive][Testbed for an Adaptive Distributed Operating System - Archive]]
    [[http://www.v3vee.org/palacios/][Palacios is a virtual machine monitor (VMM)]]

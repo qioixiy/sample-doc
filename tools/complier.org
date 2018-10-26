@@ -1,7 +1,7 @@
-#+TITLE: ±àÒëÖªÊ¶
+#+TITLE: ç¼–è¯‘çŸ¥è¯†
 
-* ±àÒëÆ÷×ÊÔ´Á´½Ó
-  http://lotabout.me/2015/write-a-C-interpreter-0/¡¡ÊÖ°ÑÊÖ½ÌÄã¹¹½¨ CÓïÑÔ±àÒëÆ÷
+* ç¼–è¯‘å™¨èµ„æºé“¾æ¥
+  http://lotabout.me/2015/write-a-C-interpreter-0/ã€€æ‰‹æŠŠæ‰‹æ•™ä½ æ„å»º Cè¯­è¨€ç¼–è¯‘å™¨
   https://github.com/texane/tcc_examples
   [[https://mgv.io/ng-static-analysis][Static Code Analysis of Angular 2 and TypeScript Projects]]
   [[https://mgv.io/typed-lambda][Developing Statically Typed Programming Language]]

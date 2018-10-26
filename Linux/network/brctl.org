@@ -1,4 +1,4 @@
-#+TITLE: brctl 工具使用
+#+TITLE: brctl 宸ュ叿浣跨敤
 
 * brctl
 #+BEGIN_SRC sh

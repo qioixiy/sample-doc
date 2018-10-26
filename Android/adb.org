@@ -1,6 +1,6 @@
-#+TITLE: android adb工具使用方法
+#+TITLE: android adb宸ュ叿浣跨敤鏂规硶
 
-* adb通过wifi链接
+* adb閫氳繃wifi閾炬帴
   - android side
   #+BEGIN_SRC sh
     $setprop service.adb.tcp.port 5555
@@ -10,7 +10,7 @@
   #+END_SRC
   - pc side
   #+BEGIN_SRC sh
-    # 连接
+    # 杩炴帴
     adb connect ip:port
     # pc disconnect
     adb disconnect ip:port

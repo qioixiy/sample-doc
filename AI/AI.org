@@ -1,13 +1,13 @@
 #+TITLE: AI
 
-* �˹�����
+* 人工智能
 ** tensorflow
   https://github.com/tensorflow/tensorflow
 ** Kaldi
-  ���ڽ������������������Ѹ�ͷ�չ�����ѧϰ�㷨���������������ִ�ʶ��
-  ׼ȷ�ʵķ�Ծ���Զ�����ʶ�� (ASR) �Ѿ��õ��㷺�Ĳ��á���������ʶ����
-  �Ӷ����� Kaldi������һ����ܻ�ӭ�Ŀ���Դ��������ʶ�𹤾߰�����������
-  Kaldi �����ṩ TensorFlow ���ɡ�
+  由于近年来虚拟个人助理的迅猛发展和深度学习算法的运用所带来的字词识别
+  准确率的飞跃，自动语音识别 (ASR) 已经得到广泛的采用。许多语音识别团
+  队都依靠 Kaldi，这是一款广受欢迎的开放源代码语音识别工具包。我们宣布
+  Kaldi 现在提供 TensorFlow 集成。
 ** tflean
    [[http://tflearn.org/][TFLearn: Deep learning library featuring a higher-level API for TensorFlow.]]
 ** links

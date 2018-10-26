@@ -1,6 +1,6 @@
-#+TITLE: ÊÕ¼¯¼¼ÊõÎÄµµ
+#+TITLE: æ”¶é›†æŠ€æœ¯æ–‡æ¡£
 
-* ±àÂëÏà¹Ø
+* ç¼–ç ç›¸å…³
   https://google.github.io/styleguide/cppguide.html
   [[https://www.codeproject.com/Articles/33340/Code-Injection-into-Running-Linux-Application][Code-Injection-into-Running-Linux-Application]]
   [[https://www.codeproject.com/Articles/389667/Simple-Plug-in-Architecture-in-Plain-C][Simple-Plug-in-Architecture-in-Plain-C]]
@@ -9,7 +9,7 @@
   http://blog.csdn.net/MyArrow/article/category/1173907
   [Linux Kernel Newbies](http://kernelnewbies.org/)
   [linux-mips|https://git.linux-mips.org]
-  [ÁúĞ¾¿ªÔ´ÉçÇø|http://www.loongnix.org/]
+  [é¾™èŠ¯å¼€æºç¤¾åŒº|http://www.loongnix.org/]
 
 * opengl
   https://www.khronos.org/opengles/

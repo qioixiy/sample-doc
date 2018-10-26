@@ -1,4 +1,4 @@
-#+TITLE: git ÃüÁî
+#+TITLE: git å‘½ä»¤
 
 * git
   [[http://schacon.github.io/git/everyday.html][Everyday GIT With 20 Commands Or So]]
