@@ -44,6 +44,7 @@ x/i  反汇编
 x/10i $ip-20 来查看当前的汇编（$ip是指令寄存器）
 x/s 以字符串输出
 x/16wx 0xbefff894
+watch *(int*)0xbefff894 内存断点，hardware breakpoint
 
 ## command command
 (gdb) breakfunc
