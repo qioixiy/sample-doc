@@ -43,6 +43,7 @@ x/c 以单字符输出
 x/i  反汇编
 x/10i $ip-20 来查看当前的汇编（$ip是指令寄存器）
 x/s 以字符串输出
+x/16wx 0xbefff894
 
 ## command command
 (gdb) breakfunc
