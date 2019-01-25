@@ -343,6 +343,32 @@ git grep -e '#define' --and -e SORT_DIRENT
 git gc
 git fsck
 
+# 10 个很有用的高级 Git 命令
+## 输出最后一次提交的改变
+    git archive -o ../updated.zip HEAD $(git diff --name-only HEAD^)
+## 输出两个提交间的改变
+    git archive -o ../latest.zip NEW_COMMIT_ID_HERE $(git diff --name-only OLD_COMMIT_ID_HERE NEW_COMMIT_ID_HERE) 
+## 克隆 指定的远程分支
+    git init
+    git remote add -t BRANCH_NAME_HERE -f origin REMOTE_REPO_URL_PATH_HERE
+    git checkout BRANCH_NAME_HERE
+## 应用 从不相关的本地仓库来的补丁
+    git --git-dir=PATH_TO_OTHER_REPOSITORY_HERE/.git format-patch -k -1 --stdout COMMIT_HASH_ID_HERE| git am -3 -k
+## 检测 你的分支的改变是否为其它分支的一部分
+    git cherry -v OTHER_BRANCH_NAME_HERE
+## 开始一个无历史的新分支
+    git checkout --orphan NEW_BRANCH_NAME_HERE
+## 无切换分支的从其它分支Checkout文件
+    git checkout BRANCH_NAME_HERE -- PATH_TO_FILE_IN_BRANCH_HERE
+## 忽略已追踪文件的变动
+    git update-index --assume-unchanged PATH_TO_FILE_HERE
+## 检查提交的变动是否是release的一部分
+    git name-rev --name-only COMMIT_HASH_HERE
+## 使用rebase推送而非merge
+    git pull --rebase
+## 将某条branch配置为总是使用rebase推送
+    git config branch.BRANCH_NAME_HERE.rebase true
+
 # git深入理解
 ## 参考链接
 - [refs1](http://www.jianshu.com/p/c221f99f0bfd)
