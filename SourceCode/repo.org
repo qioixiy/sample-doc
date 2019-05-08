@@ -1,0 +1,15 @@
+#+TITLE: 按类型分类有用的仓库
+
+* audio
+  https://github.com/texane/dsp digital signal processing related codes
+
+* Qemu
+  https://github.com/texane/vpcie implement PCIE devices using C or VHDL and test them against a QEMU virtualized architecture
+* hardware
+  https://github.com/texane/can_controller
+  https://github.com/texane 有很多控制器仿真
+  https://github.com/texane/ticks/　ticks measure library
+  https://github.com/texane/ss　simple simulator
+  https://github.com/f9micro/f9-kernel.git　An efficient and secure microkernel built for ARM Cortex-M cores, inspired by L4
+* inject
+  [[https://github.com/gaffe23/linux-inject.git][linux-inject]]

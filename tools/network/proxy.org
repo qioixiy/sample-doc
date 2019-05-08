@@ -1,0 +1,5 @@
+* use ssh
+** socks4 socks5
+   ssh -TND local-port user@addresss
+   - https://www.cnblogs.com/piperck/p/6200439.html
+   ssh -fND localhost:8888 root@remote_ip # 透過 ssh 建立一個 socks5 通過代理上網

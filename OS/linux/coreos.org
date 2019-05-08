@@ -1,0 +1,6 @@
+* blog
+- [[https://coreos.com/os/docs/latest/quickstart.html][quickstart]]
+- [[https://coreos.com/os/docs/latest/booting-on-vagrant.html][booting-on-vagrant]]
+- [[https://coreos.com/os/docs/latest/booting-with-qemu.html][booting-with-qemu]]
+- [[https://coreos.com/blog/coreos-clustering-with-vagrant][coreos-clustering-with-vagrant]]
+

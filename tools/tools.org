@@ -1,0 +1,11 @@
+#+TITLE: 工具收集
+
+* scrot
+  scrot: command line screen capture utility
+
+* stty
+stty rows 61 columns 272
+
+* 
+  [[http://pan.java1234.com/][百度网盘搜索]]
+  [[http://www.java1234.com/javaxuexiluxiantu.html][Java学习路线图]]

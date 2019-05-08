@@ -1,0 +1,5 @@
+* Welcome
+  [[http://www.linuxfromscratch.org/lfs/][Linux From Scratch]]
+
+* upgrade version
+  [[http://www.nutyx.org][NuTyX is a complete GNU/Linux distribution with high flexibility]]

@@ -1,0 +1,18 @@
+#+TITLE: linux user mode
+
+* linux um
+#+BEGIN_SRC sh
+  make mrproper
+  export ARCH=um
+  make mrproper
+  make menuconfig
+  make linux
+  make modules
+  make modules_install
+#+END_SRC
+
+* links
+- [[http://uml.devloop.org.uk/][uml dev]]
+- [[http://fs.devloop.org.uk/][rootfs links]]
+- [[http://blog.csdn.net/ztz0223/article/details/7874759][uml build]]
+- [[http://blog.csdn.net/ztz0223/article/details/8227004][uml debug]]

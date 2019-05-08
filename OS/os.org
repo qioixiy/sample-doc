@@ -1,0 +1,61 @@
+#+TITLE: OS
+
+* OS
+** Linux
+*** NixOS
+    https://github.com/NixOS The Purely Functional Linux Distribution
+** LFS
+   https://github.com/texane/lfs.git scripts and configurations to build linux from scratch based systems
+** Genode OS Framework
+   http://genode.org/index
+   https://github.com/genodelabs/genode
+** Minix
+*** 安装命令setup
+** L4
+   L4是最先由Jochen Liedtke开发的第二代微内核。目前，它已经变成了第二代微内核 的一个标准，基于这个标准，有很多L4 API的实现。其中一个实现就是Fiasco，它是在 德国德累斯顿大学开发的。为了强调Fiasco跟L4之间的这种关系，我们把Fiasco一般 称L4/Fiasco。L4/Fiasco与其它L4的实现不同的是L4/Fiasco是一个具有实时特性的微内 核，L4/Fiasco是DROPS项目的一个核心子项目，它同时提供了很多软件包，以方便 基于L4/Fiasco的程序设计
+   https://wiki.tudos.org/Main_Page
+   http://www.l4hq.org/docs/performance.php
+   http://ssrg.nicta.com.au/research/old/L4/
+*** Fiasco-UX
+    Running on x86 host Linux
+    http://os.inf.tu-dresden.de/fiasco/ux.html
+    http://os.inf.tu-dresden.de/papers_ps/umol.pdf A User Mode L4 Environment
+    http://os.inf.tu-dresden.de/papers_ps/steinberg-beleg.pdf Fiasco-Kernel User-Mode Port
+
+*** L4Linux
+    http://os.inf.tu-dresden.de/L4/LinuxOnL4
+    http://os.inf.tu-dresden.de/L4/LinuxOnL4/download.shtml
+    http://os.inf.tu-dresden.de/fiasco/ux-using.html
+*** l4ka
+    http://www.l4ka.org/59.php
+*** L4Re
+    https://l4re.org/download.html
+    http://os.inf.tu-dresden.de/L4Re/
+    http://os.inf.tu-dresden.de/L4Re/download.html
+    http://os.inf.tu-dresden.de/L4Re/build.html
+    https://github.com/akavel/l4.nix Experimental Nix expression/script for building Fiasco.OC microkernel and L4 Runtime Environment (L4Re)
+*** l4android
+    http://l4android.org/download/download.html
+*** SDIOS06
+    http://www.l4ka.org/86.php
+*** kit
+    http://os.itec.kit.edu/index.php
+*** sel4
+    https://wiki.sel4.systems/Getting%20started
+*** echronos realtime os
+    https://github.com/echronos/echronos
+    https://github.com/echronos/qemu
+*** f9-kernel
+    http://wiki.csie.ncku.edu.tw/embedded/f9-kernel
+** plan9
+   [[https://9fans.github.io/plan9port/][9fans.github.io/plan9port]]
+** research OS
+   [[https://github.com/aclements/sv6][POSIX-like scalable multicore research OS kernel]]
+   [[https://github.com/arcbbb/xv6][x86 unix v6 branch]]
+   [[https://pdos.csail.mit.edu/6.828/2017/xv6.html][Xv6, a simple Unix-like teaching operating system]]
+   [[https://github.com/aclements/mtrace][Memory access tracing QEMU]]
+** links
+   [[http://wiki.csie.ncku.edu.tw/embedded/f9-kernel][f9-kernel]]
+   [[http://eee.guc.edu.eg/Courses/Electronics/ELCT912%20Advanced%20Embedded%20Systems/Lectures/ARM%20System%20Developer's%20Guide.pdf][ARM System Developer’s Guide : Designing and Optimizing System Software]]
+   [[https://github.com/argos-research-archive][Testbed for an Adaptive Distributed Operating System - Archive]]
+   [[http://www.v3vee.org/palacios/][Palacios is a virtual machine monitor (VMM)]]

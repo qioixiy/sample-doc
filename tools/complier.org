@@ -1,0 +1,13 @@
+#+TITLE: 编译知识
+
+* 编译器资源链接
+  http://lotabout.me/2015/write-a-C-interpreter-0/　手把手教你构建 C语言编译器
+  https://github.com/texane/tcc_examples
+  [[https://mgv.io/ng-static-analysis][Static Code Analysis of Angular 2 and TypeScript Projects]]
+  [[https://mgv.io/typed-lambda][Developing Statically Typed Programming Language]]
+  [[https://mgv.io/tiny-compiler][Tiny Compiler]]
+  [[https://mgv.io/wiki-lex][Lexical Analysis]]
+  [[https://mgv.io/wiki-parser][Syntax Analysis]]
+  [[https://mgv.io/wiki-case-ast][Abstract Syntax Tree]]
+  [[https://mgv.io/wiki-ebnf][EBNF grammar]]
+  [[https://mgv.io/wiki-recursive-descent-parser][Recursive Descent Parsing]]

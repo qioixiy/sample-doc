@@ -1,0 +1,4 @@
+** res links
+   [[https://jan.newmarch.name/Wayland/index.html][Programming Wayland Clients]]
+   [[http://wayland.freedesktop.org/][wayland freedestop]]
+   [[https://www.realvnc.com/products/vnc/wayland/setup.html][wayland vnc]]
