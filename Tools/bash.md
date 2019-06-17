@@ -1,12 +1,15 @@
-# 
-> ls | xargs -n1 -I {} sh -c "echo {}; rm -r {}"
+# bash template
+```
+#!/usr/bin/env bash
 
-[shell解析命令行的过程以及eval命令][1]
-[how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/][2]
+set -o errexit
+set -o nounset
+set -o pipefail
+readonly SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-[1]: https://www.cnblogs.com/f-ck-need-u/p/7426371.html
-[2]: https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTg4NDIzODcsNTMxMjA4Mzk5LDQyMD
-UyNjAxMV19
--->
+main() {
+    # your code goes here...
+}
+
+main "${@}"
+```
