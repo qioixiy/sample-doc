@@ -101,6 +101,18 @@ $docker push new_image_name
 -t, --tag="" Repository name (and optionally a tag) to be applied to the resulting image in case of success
 $docker build -t image_name Dockerfile_path
 
+# portainer
+```
+docker pull portainer/portainer
+docker volume create portainer_data
+docker run -d -p 9000:9000 \
+    --name portainer \
+    --restart always \
+    -v /var/run/docker.sock:/var/run/docker.sock \
+    -v portainer_data:/data \
+    portainer/portainer
+```
+
 ##url
 - [build docker image](http://www.alauda.cn/2015/07/10/docker-image-as-small-as-possible)
 - [docker private registry](http://seanlook.com/2014/11/13/deploy-private-docker-registry-with-nginx-ssl)
